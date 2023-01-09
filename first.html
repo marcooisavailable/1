@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>marco's first website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="logo">
+        <img src="Download (1).jpg" alt="logo" />
+      </a>
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#products">Products</a>
+        <a href="#review">Review</a>
+        <a href="#blogs">Blogs</a>
+        <a href="#home">Home</a>
+      </nav>
+      <div class="buttons" id="search-btn">
+        <button>
+          <i class="fas fa-search"></i>
+        </button>
+
+        <button id="cart-btn">
+          <i class="fas fa-shopping-cart"></i>
+        </button>
+
+        <button id="menu-btn">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+      <div class="search-form">
+        <input
+          type="text"
+          class="search-input"
+          id="search-box"
+          placeholder="search here"
+        />
+        <i class="fas fa-search"></i>
+      </div>
+      <div class="cart-items-container">
+        <div class="cart-item">
+          <i class="fas fa-times"></i>
+          <img src="menu-1.png" alt="pic" />
+          <div class="content">
+            <h3>cart item 01</h3>
+            <div class="price">$9.99</div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <i class="fas fa-times"></i>
+          <img src="menu-2.png" alt="pic" />
+
+          <div class="content">
+            <h3>cart item 02</h3>
+            <div class="price">$8.99</div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <i class="fas fa-times"></i>
+          <img src="menu-3.png" alt="pic" />
+
+          <div class="content">
+            <h3>cart item 03</h3>
+            <div class="price">$14.99</div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <i class="fas fa-times"></i>
+          <img src="menu-4.png" alt="pic" />
+        </div>
+        <a href="#" class="btn">checkout now</a>
+      </div>
+    </header>
+    <section class="home" id="home">
+      <div class="content">
+        <h3>Los Pollos Hermanos</h3>
+        <p>
+          extrem deals just from 02/12 to 9/12 in all hamburgers and pizzas.
+        </p>    
+      </div>
+    </section>
+    <section class="menu" id="menu">
+      <h1 class="heading">our <span>menu</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <div class="box-head">
+            <img src="menu-1.png" alt="menu" />
+            <span class="menu-category">PIZZA</span>
+            <h3>6 Mini Pizzas</h3>
+            <div class="price">$9.99 <span>$15</span></div>
+          </div>
+          <div class="box-bottom"></div>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+        <div class="box">
+          <div class="box-head">
+            <img src="menu-2.png" alt="menu" />
+            <span class="menu-category">Burger</span>
+            <h3>6 Mini Burgers</h3>
+            <div class="price">$8.99 <span>$14</span></div>
+          </div>
+          <div class="box-bottom"></div>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+        <div class="box">
+          <div class="box-head">
+            <img src="menu-3.png" alt="menu" />
+            <span class="menu-category">pizza</span>
+            <h3>Mixed Pizzas</h3>
+            <div class="price">$14.99 <span>$20</span></div>
+          </div>
+          <div class="box-bottom"></div>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+      </div>
+    </section>
+    <section class="products" id="products">
+      <h1 class="heading">our <span>products</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <div class="box-head">
+            <span class="title">MINI BURGER</span>
+            <a href="#" class="name">BACON BURGER</a>
+          </div>
+          <div class="image">
+            <img src="product-1.png" alt="" />
+          </div>
+          <div class="box-bottom">
+            <div class="info">
+              <b class="price">$4.99</b>
+              <span class="amount">150gr/350cal</span>
+            </div>
+            <div class="product-btn">
+              <a href="#">
+                <i class="fas fa-plus"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="box-head">
+            <span class="title">MINI BURGER</span>
+            <a href="#" class="name">BACON BURGER</a>
+          </div>
+          <div class="image">
+            <img src="product-2.png" alt="" />
+          </div>
+          <div class="box-bottom">
+            <div class="info">
+              <b class="price">$3.99</b>
+              <span class="amount">100gr/300cal</span>
+            </div>
+            <div class="product-btn">
+              <a href="#">
+                <i class="fas fa-plus"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="box dark-bg">
+          <div class="box-head">
+            <span class="title">MINI BURGER</span>
+            <a href="#" class="name">BACON BURGER</a>
+          </div>
+          <div class="image">
+            <img src="dark-product.jpg" alt="" />
+          </div>
+          <div class="box-bottom">
+            <div class="info">
+              <b class="price">$9.99</b>
+              <span class="amount">150gr/400cal</span>
+            </div>
+            <div class="product-btn">
+              <a href="#">
+                <i class="fas fa-plus"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="about" id="about">
+      <h1 class="heading">About <span>Us</span></h1>
+      <div class="row">
+        <div class="image"></div>
+        <img src="about.jpg" alt="pic" />
+        <div class="content">
+          <h3> What is the secret recipe of your burgers </h3>
+          <p>
+            its definitly love not something illegal.hehem mmhhhm  I mean...
+          </p>
+          <p>
+            "The finest ingredients are brought together with love and care, then slow cooked to perfection. Yes, the old ways are still best at Los Pollos Hermanos. But don't take my word for it. One taste, and you'll know."
+             ―Gustavo Fing
+          </p>
+          <a href="https://breakingbad.fandom.com/wiki/Los_Pollos_Hermanos" target="_blank" class="btn">Learn More</a>
+        </div>
+      </div>
+    </section>
+    <section class="review" id="review">
+      <h1 class="heading">costumers <span>review</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <img src="quote.png" alt="pic" />
+          <p>
+         BOMBASTIC
+          </p>
+          <img src="ukiy0n36qmm31.webp" alt="pic" class="user" />
+          <h3>Tuco Salamanca</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="quote.png" alt="pic" />
+          <p>
+           Even I can do it better doesnt taste att all
+          </p>
+          <img src="474490.jpg" alt="[ic" class="user" />
+          <h3>Walter white</h3>
+          <div class="stars">
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="quote.png" alt="pic" />
+          <p>
+           what a nice guy i am sure that everything about him is perfect anyway i have to go back to war against drugs.
+          </p>
+          <img src="pic_1364047579_4.jpg" alt="[ic" class="user" />
+          <h3>Agent Schrader</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="blogs" id="blogs">
+      <h1 class="heading">Our <span>Blog</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <div class="img">
+            <img src="blog-1.jpg"  alt="pic" />
+          </div>
+          <div class="content">
+            <a href="#" class="title">how to make burgers</a>
+            <span>by jesse pinkman/11st may,2012</span>
+            <p>
+              I have no idea, I'm out of my imagination
+
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+            <a href="https://www.allrecipes.com/recipe/25473/the-perfect-basic-burger/" target="_blank" class="btn">read more</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="img">
+            <img src="blog-2.jpg" alt="pic" />
+          </div>
+          <div class="content">
+            <a href="#" class="title">how to make burgers</a>
+            <span>by marco/10st may,2022</span>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
+              minima sed quos repudiandae nam. Incid
+            </p>
+            <a href="https://www.allrecipes.com/recipe/25473/the-perfect-basic-burger/" target="_blank" class="btn">read more</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="img">
+            <img src="blog-3.jpg" alt="pic" />
+          </div>
+          <div class="content">
+            <a href="#" class="title">how to make burgers</a>
+            <span>by marco/10st may,2022</span>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
+              minima sed quos repudiandae nam. Incid
+            </p>
+            <a href="https://www.allrecipes.com/recipe/25473/the-perfect-basic-burger/" target="_blank" class="btn">read more</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="footer">
+      <div class="search">
+        <input type="text" class="search-input" placeholder="Search" />
+        <button class="btn btn-primary">search</button>
+      </div>
+      <div class="share">
+        <a href="https://www.imdb.com/title/tt0903747/"  target="_blank" class="fab fa-facebook"></a>
+        <a href="https://www.imdb.com/title/tt0903747/"  target="_blank" class="fab fa-twitter"></a>
+        <a href="https://www.imdb.com/title/tt0903747/"  target="_blank" class="fab fa-instagram"></a>
+        <a href="https://www.imdb.com/title/tt0903747/"  target="_blank"  class="fab fa-linkedin"></a>
+        <a href="https://www.imdb.com/title/tt0903747/"  target="_blank"  class="fab fa-pinterest"></a>
+      </div>
+      <div class="links">
+        <a href="#" class="active">Home</a>
+        <a href="#">About</a>
+        <a href="#">Products</a>
+        <a href="#">Review</a>
+        <a href="#">Contact</a>
+        <a href="#">Blogs</a>
+      </div>
+      <div class="credit">
+        created by <span>marco</span>|none of the rights are reserved XD
+      </div>
+    </section>
+<script src="script.js"></script>
+</body>
+</html>
